@@ -35,7 +35,7 @@ public class Jenkins {
 		drv.findElement(By.xpath("//input[@id='Password']")).sendKeys("Insert@123");
 		drv.findElement(By.xpath("//input[@id='ConfirmPassword']")).sendKeys("Insert@123");
 		
-		drv.findElement(By.xpath("//input[@id='register-button']")).click();
+//		drv.findElement(By.xpath("//input[@id='register-button']")).click();
 		
 		
 		
