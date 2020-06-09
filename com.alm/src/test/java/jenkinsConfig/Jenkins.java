@@ -32,7 +32,10 @@ public class Jenkins {
 		JavascriptExecutor js=(JavascriptExecutor)drv;
 		js.executeScript("scroll(0,200)",ele);
 		
+		drv.findElement(By.xpath("//input[@id='Password']")).sendKeys("Insert@123");
+		drv.findElement(By.xpath("//input[@id='ConfirmPassword']")).sendKeys("Insert@123");
 		
+		drv.findElement(By.xpath("//input[@id='register-button']")).click();
 		
 		
 		
